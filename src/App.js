@@ -16,9 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         hi, Learn  React
+         Learn React
         </a>
       </header>
+      <p className="App-intro">I was changed on the feature branch</p>
     </div>
   );
 }
