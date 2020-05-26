@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t codecroze/docker-react -f Dockerfile.dev .
+  - docker build -t codecroze/docker-react -f dockerfile.dev .
 
 script:
   - docker run -e CI=true codecroze/docker-react npm run test
