@@ -16,9 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         hi  Learn React not overrreact
+         Learn React
         </a>
       </header>
+      <p className="App-intro">It was changed at the master branch </p>
     </div>
   );
 }
